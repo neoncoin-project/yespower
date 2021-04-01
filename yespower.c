@@ -1101,7 +1101,7 @@ static void smix(uint8_t *B, size_t r, uint32_t N,
 #define smix1 smix1_1_0
 #define smix2 smix2_1_0
 #define smix smix_1_0
-#include "yespower-opt.c"
+#include "yespower.c"
 #undef smix
 
 /**
