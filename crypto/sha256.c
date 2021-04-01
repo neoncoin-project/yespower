@@ -29,8 +29,8 @@
 #include <stdint.h>
 #include <string.h>
 
-#include "insecure_memzero.h"
-#include "sysendian.h"
+#include "../util/insecure_memzero.h"
+#include "../util/sysendian.h"
 
 #include "sha256.h"
 
